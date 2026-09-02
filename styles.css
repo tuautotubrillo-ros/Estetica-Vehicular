@@ -1564,10 +1564,17 @@ img {
     margin-bottom: 25px;
 }
 
-/* RESPONSIVE */
+/* RESPONSIVE & MOBILE ALIGNMENT */
 @media (max-width: 992px) {
     .hero-container {
         grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
 
@@ -1581,6 +1588,7 @@ img {
 
     .hero-cta-buttons {
         justify-content: center;
+        width: 100%;
     }
 
     .tag-1, .tag-2 {
@@ -1601,6 +1609,29 @@ img {
 }
 
 @media (max-width: 768px) {
+    /* TOP BAR CENTRADA EN MÓVILES */
+    .top-bar-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 6px;
+    }
+
+    .badge-home {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .top-bar-contact {
+        justify-content: center;
+    }
+
+    /* HEADER & MENÚ */
+    .header-container {
+        justify-content: space-between;
+    }
+
     .nav-menu {
         position: fixed;
         top: 75px;
@@ -1608,6 +1639,9 @@ img {
         width: 100%;
         background: var(--bg-card);
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
         padding: 30px;
         border-bottom: 1px solid var(--border-color);
         transition: left 0.3s ease;
@@ -1625,21 +1659,184 @@ img {
         display: none;
     }
 
+    /* BANNERS Y SECCIONES CENTRADAS */
     .banner-card {
         flex-direction: column;
         text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 20px;
     }
 
-    .cta-card {
-        flex-direction: column;
+    .banner-info {
         text-align: center;
     }
 
+    .banner-action {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-action .btn {
+        width: 100%;
+        max-width: 340px;
+        justify-content: center;
+    }
+
+    /* BOTONES HERO MÓVIL */
+    .hero-cta-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .hero-cta-buttons .btn {
+        width: 100%;
+        max-width: 360px;
+        justify-content: center;
+    }
+
+    /* SERVICIOS EN MÓVIL */
+    .service-card {
+        text-align: center;
+        align-items: center;
+    }
+
+    .service-icon {
+        margin: 0 auto 20px auto;
+    }
+
+    .service-bullets {
+        text-align: left;
+        display: inline-block;
+        margin: 0 auto 25px auto;
+    }
+
+    .service-btn {
+        justify-content: center;
+    }
+
+    /* COTIZADOR EN MÓVIL */
+    .calculator-box {
+        padding: 25px 18px;
+        text-align: center;
+    }
+
+    .calc-header {
+        text-align: center;
+    }
+
+    .calc-label {
+        text-align: center;
+    }
+
+    .calc-summary-box {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .calc-total {
+        text-align: center;
+    }
+
+    #sendCalcWa {
+        width: 100%;
+        max-width: 360px;
+        justify-content: center;
+    }
+
+    /* TIENDA DE PRODUCTOS EN MÓVIL */
+    .shop-controls {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .category-pills {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .search-box {
+        width: 100%;
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    /* BANNER DE LLAMADO A LA ACCIÓN (CTA) */
+    .cta-card {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 35px 20px;
+    }
+
+    .cta-content {
+        text-align: center;
+    }
+
+    .cta-actions {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cta-actions .btn {
+        width: 100%;
+        max-width: 360px;
+        justify-content: center;
+    }
+
+    /* SLIDER Y FOOTER */
     .comparison-slider {
         height: 300px;
     }
 
     .footer-grid {
         grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .brand-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .brand-col p {
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .footer-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-col h4 {
+        text-align: center;
+    }
+
+    .footer-col ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    .contact-col p {
+        justify-content: center;
+        text-align: center;
     }
 }
+
