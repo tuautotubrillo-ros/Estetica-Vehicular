@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tuauto.tubrillo | Estética Vehicular a Domicilio & Productos Auto-Care</title>
+    <meta name="description" content="Servicio profesional de estética vehicular a domicilio. Lavados premium, detailing interior y exterior, pulidos, tratamientos cerámicos, restauración de plásticos, limpieza de tapizados y venta de productos. ¡Cotiza al 3417489454!">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- TOP BAR DE SERVICIO A DOMICILIO -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <span class="badge-home"><i class="fa-solid fa-house-chimney-car"></i> ¡SERVICIO 100% A DOMICILIO SIN MOVERTE DE TU CASA!</span>
+            <div class="top-bar-contact">
+                <a href="https://wa.me/5493417489454?text=Hola%20tuauto.tubrillo,%20quiero%20hacer%20una%20consulta%20por%20un%20servicio" target="_blank" class="top-wa">
+                    <i class="fa-brands fa-whatsapp"></i> 3417489454
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVBAR HEADER -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                <span class="logo-text">tuauto.<span class="highlight">tubrillo</span></span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#inicio" class="nav-link active"><i class="fa-solid fa-house"></i> Inicio</a>
+                <a href="#servicios" class="nav-link"><i class="fa-solid fa-car-wash"></i> Servicios</a>
+                <a href="#cotizador" class="nav-link"><i class="fa-solid fa-calculator"></i> Cotizador</a>
+                <a href="#tienda" class="nav-link"><i class="fa-solid fa-store"></i> Tienda de Productos</a>
+                <a href="#antes-despues" class="nav-link"><i class="fa-solid fa-images"></i> Resultados</a>
+                <a href="#faq" class="nav-link"><i class="fa-solid fa-circle-question"></i> Preguntas</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="cart-btn" id="cartBtn" aria-label="Ver Carrito de Compras">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+                <a href="https://wa.me/5493417489454?text=Hola%20tuauto.tubrillo!%20Me%20interesa%20consultar%20por%20un%20servicio%20a%20domicilio." target="_blank" class="btn btn-whatsapp header-wa-btn">
+                    <i class="fa-brands fa-whatsapp"></i> <span>Consultar</span>
+                </a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir Menú">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero" id="inicio">
+            <div class="hero-overlay"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i class="fa-solid fa-truck-fast"></i> LLEGAMOS HASTA LA PUERTA DE TU CASA
+                    </div>
+                    <h1 class="hero-title">
+                        El Brillo Espectacular <br>que Tu Auto Merece <span class="gradient-text">Sin Salir de Casa</span>
+                    </h1>
+                    <p class="hero-description">
+                        Somos especialistas en <strong>Estética Vehicular a Domicilio</strong>. Ofrecemos tratamientos cerámicos, detailing interior/exterior, pulidos de alta precisión y limpieza profunda con la comodidad que necesitas.
+                    </p>
+                    
+                    <div class="hero-features-strip">
+                        <div class="feature-item"><i class="fa-solid fa-circle-check"></i> Equipamiento Propio</div>
+                        <div class="feature-item"><i class="fa-solid fa-circle-check"></i> Insumos Premium</div>
+                        <div class="feature-item"><i class="fa-solid fa-circle-check"></i> Atención Personalizada</div>
+                    </div>
+
+                    <div class="hero-cta-buttons">
+                        <a href="https://wa.me/5493417489454?text=Hola!%20Quiero%20pedir%20presupuesto%20para%20mi%20vehículo" target="_blank" class="btn btn-primary btn-glow">
+                            <i class="fa-brands fa-whatsapp"></i> Cotizar por WhatsApp (3417489454)
+                        </a>
+                        <a href="#tienda" class="btn btn-secondary">
+                            <i class="fa-solid fa-bag-shopping"></i> Comprar Productos
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-card">
+                        <img src="images/hero.png" alt="Estética Vehicular Profesional tuauto.tubrillo" class="hero-img">
+                        <div class="hero-floating-tag tag-1">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <div>
+                                <strong>Tratamiento Cerámico</strong>
+                                <small>Brillo & Protección UV</small>
+                            </div>
+                        </div>
+                        <div class="hero-floating-tag tag-2">
+                            <i class="fa-solid fa-star"></i>
+                            <div>
+                                <strong>100% A Domicilio</strong>
+                                <small>En toda la zona</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DESTACADA DE SERVICIO A DOMICILIO -->
+        <section class="home-service-banner">
+            <div class="container">
+                <div class="banner-card">
+                    <div class="banner-icon">
+                        <i class="fa-solid fa-house-laptop"></i>
+                    </div>
+                    <div class="banner-info">
+                        <h2>¿Cómo funciona nuestro Servicio a Domicilio?</h2>
+                        <p>Llegamos a tu domicilio o cochera con todas las herramientas, máquinas profesionales e insumos de primera línea. Tú solo relájate y disfruta del resultado impecable.</p>
+                    </div>
+                    <div class="banner-action">
+                        <a href="https://wa.me/5493417489454?text=Hola!%20Quiero%20consultar%20disponibilidad%20de%20turno%20a%20domicilio" target="_blank" class="btn btn-whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i> Reservar Mi Turno
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE SERVICIOS -->
+        <section class="services-section" id="servicios">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">NUESTROS SERVICIOS PREMIUM</span>
+                    <h2 class="section-title">Soluciones Completas para Tu Vehículo</h2>
+                    <p class="section-desc">Selecciona el servicio que necesita tu auto. Todos nuestros trabajos se realizan a domicilio con garantía de brillo y protección.</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Servicio 1 -->
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-soap"></i></div>
+                        <h3 class="service-title">Lavados Premium a Domicilio</h3>
+                        <p class="service-desc">Lavado detallado con espuma Snow Foam pH neutro, técnica de dos baldes, secado con microfibra de alto gramaje y reacondicionado de cubiertas.</p>
+                        <ul class="service-bullets">
+                            <li><i class="fa-solid fa-check"></i> Espuma Snow Foam</li>
+                            <li><i class="fa-solid fa-check"></i> Limpieza de llantas y llantarum</li>
+                            <li><i class="fa-solid fa-check"></i> Acondicionado de gomas</li>
+                        </ul>
+                        <a href="https://wa.me/5493417489454?text=Hola!%20Quiero%20consultar%20por%20el%20servicio:%20Lavado%20Premium%20a%20Domicilio" target="_blank" class="service-btn">
+                            <i class="fa-brands fa-whatsapp"></i> Pedir Cita
+                        </a>
+                    </div>
+
+                    <!-- Servicio 2 -->
+                    <div class="service-card highlight-card">
+                        <div class="popular-badge"><i class="fa-solid fa-fire"></i> Más Pedido</div>
+                        <div class="service-icon"><i class="fa-solid fa-car-side"></i></div>
+                        <h3 class="service-title">Detailing Interior y Exterior</h3>
+                        <p class="service-desc">Limpieza minuciosamente detallada de todas las superficies internas y externas. Descontaminado de pintura y acondicionamiento protector.</p>
+                        <ul class="service-bullets">
+                            <li><i class="fa-solid fa-check"></i> Limpieza de motor e insignias</li>
+                            <li><i class="fa-solid fa-check"></i> Nutrición de plásticos y cueros</li>
+                            <li><i class="fa-solid fa-check"></i> Brillo cristal en cristales</li>
+                        </ul>
+                        <a href="https://wa.me/5493417489454?text=Hola!%20Quiero%20consultar%20por%20el%20servicio:%20Detailing%20Interior%20y%20Exterior" target="_blank" class="service-btn">
+                            <i class="fa-brands fa-whatsapp"></i> Pedir Cita
+                        </a>
+                    </div>
+
+                    <!-- Servicio 3 -->
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-gem"></i></div>
+                        <h3 class="service-title">Pulidos Completos y Abrillantado</h3>
+                        <p class="service-desc">Corrección de pintura en 1, 2 o 3 pasos para eliminar microrrayones (swirls), marcas de lavado y devolver la profundidad de color original.</p>
+                        <ul class="service-bullets">
+                            <li><i class="fa-solid fa-check"></i> Corrección técnica de laca</li>
+                            <li><i class="fa-solid fa-check"></i> Eliminación de rayas superficiales</li>
+                            <li><i class="fa-solid fa-check"></i> Acabado espejo de alto impacto</li>
+                        </ul>
+                        <a href="https://wa.me/5493417489454?text=Hola!%20Quiero%20consultar%20por%20el%20servicio:%20Pulidos%20Completos%20y%20Abrillantado" target="_blank" class="service-btn">
+                            <i class="fa-brands fa-whatsapp"></i> Pedir Cita
+                        </a>
+                    </div>
+
+                    <!-- Servicio 4 -->
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-shield-cat"></i></div>
+                        <h3 class="service-title">Tratamientos Cerámico y Acrílico</h3>
+                        <p class="service-desc">Sellado de nanotecnología SiO2 que protege la pintura contra rayos UV, deposiciones de aves, lluvia ácida y otorga máxima dureza y repelencia al agua.</p>
+                        <ul class="service-bullets">
+                            <li><i class="fa-solid fa-check"></i> Protección de 1 a 3 años</li>
+                            <li><i class="fa-solid fa-check"></i> Propiedad hidrofóbica extrema</li>
+                            <li><i class="fa-solid fa-check"></i> Brillo cristalino duradero</li>
+                        </ul>
+                        <a href="https://wa.me/5493417489454?text=Hola!%20Quiero%20consultar%20por%20el%20servicio:%20Tratamientos%20de%20Cerámico%20o%20Acrílico" target="_blank" class="service-btn">
+                            <i class="fa-brands fa-whatsapp"></i> Pedir Cita
+                        </a>
+                    </div>
+
+                    <!-- Servicio 5 -->
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-spray-can-sparkles"></i></div>
+                        <h3 class="service-title">Restauración de Plásticos</h3>
+                        <p class="service-desc">Recuperación del tono negro mate original en plásticos exteriores deteriorados por el sol, utilizando acondicionadores cerámicos de larga duración.</p>
+                        <ul class="service-bullets">
+                            <li><i class="fa-solid fa-check"></i> Protección UV renovada</li>
+                            <li><i class="fa-solid fa-check"></i> Sin sensación grasosa</li>
+                            <li><i class="fa-solid fa-check"></i> Paragolpes, baguetas y molduras</li>
+                        </ul>
+                        <a href="https://wa.me/5493417489454?text=Hola!%20Quiero%20consultar%20por%20el%20servicio:%20Restauración%20de%20Plásticos" target="_blank" class="service-btn">
+                            <i class="fa-brands fa-whatsapp"></i> Pedir Cita
+                        </a>
+                    </div>
+
+                    <!-- Servicio 6 -->
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-gears"></i></div>
+                        <h3 class="service-title">Limpieza de Motor</h3>
+                        <p class="service-desc">Desengrasado técnico con productos dieléctricos seguros para componentes eléctricos, soplado seco y acondicionamiento protector de mangueras.</p>
+                        <ul class="service-bullets">
+                            <li><i class="fa-solid fa-check"></i> Desengrasante biodegradable</li>
+                            <li><i class="fa-solid fa-check"></i> Protección de componentes</li>
+                            <li><i class="fa-solid fa-check"></i> Acabado como recién salido de fábrica</li>
+                        </ul>
+                        <a href="https://wa.me/5493417489454?text=Hola!%20Quiero%20consultar%20por%20el%20servicio:%20Limpieza%20de%20Motor" target="_blank" class="service-btn">
+                            <i class="fa-brands fa-whatsapp"></i> Pedir Cita
+                        </a>
+                    </div>
+
+                    <!-- Servicio 7 -->
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-dharmachakra"></i></div>
+                        <h3 class="service-title">Pintado de Llantas</h3>
+                        <p class="service-desc">Personalización y renovación de llantas con pintura de alta resistencia térmica y mecánica. Acabados en negro brillante, satinado, grafito o plasti-dip.</p>
+                        <ul class="service-bullets">
+                            <li><i class="fa-solid fa-check"></i> Preparación de superficie</li>
+                            <li><i class="fa-solid fa-check"></i> Pintura de alta durabilidad</li>
+                            <li><i class="fa-solid fa-check"></i> Cambio de look completo</li>
+                        </ul>
+                        <a href="https://wa.me/5493417489454?text=Hola!%20Quiero%20consultar%20por%20el%20servicio:%20Pintado%20de%20Llantas" target="_blank" class="service-btn">
+                            <i class="fa-brands fa-whatsapp"></i> Pedir Cita
+                        </a>
+                    </div>
+
+                    <!-- Servicio 8 -->
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-note-sticky"></i></div>
+                        <h3 class="service-title">Despegue de Calcomanías y Polarizados</h3>
+                        <p class="service-desc">Remoción limpia de láminas polarizadas viejas o calcomanías publicitarias sin dañar lunetas térmicas, cristales ni pintura del vehículo.</p>
+                        <ul class="service-bullets">
+                            <li><i class="fa-solid fa-check"></i> Eliminación total de pegamento</li>
+                            <li><i class="fa-solid fa-check"></i> Cuidado de desempañador rasero</li>
+                            <li><i class="fa-solid fa-check"></i> Limpieza final cristalina</li>
+                        </ul>
+                        <a href="https://wa.me/5493417489454?text=Hola!%20Quiero%20consultar%20por%20el%20servicio:%20Despegue%20de%20Calcomanías%20y%20Polarizados" target="_blank" class="service-btn">
+                            <i class="fa-brands fa-whatsapp"></i> Pedir Cita
+                        </a>
+                    </div>
+
+                    <!-- Servicio 9 -->
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-chair"></i></div>
+                        <h3 class="service-title">Limpieza Profunda de Tapizados</h3>
+                        <p class="service-desc">Inyección y extracción de calor con limpiadores enzimáticos para desinfectar telas, alfombras y techos. Eliminación de manchas, bacterias y malos olores.</p>
+                        <ul class="service-bullets">
+                            <li><i class="fa-solid fa-check"></i> Eliminación de manchas difíciles</li>
+                            <li><i class="fa-solid fa-check"></i> Desinfección antibacteriana</li>
+                            <li><i class="fa-solid fa-check"></i> Secado rápido garantizado</li>
+                        </ul>
+                        <a href="https://wa.me/5493417489454?text=Hola!%20Quiero%20consultar%20por%20el%20servicio:%20Limpieza%20Profunda%20de%20Tapizados" target="_blank" class="service-btn">
+                            <i class="fa-brands fa-whatsapp"></i> Pedir Cita
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- COTIZADOR INTERACTIVO DE SERVICIOS -->
+        <section class="calculator-section" id="cotizador">
+            <div class="container">
+                <div class="calculator-box">
+                    <div class="calc-header">
+                        <span class="section-subtitle"><i class="fa-solid fa-sliders"></i> INTERACTIVO</span>
+                        <h2>Calcula tu Presupuesto Estimado</h2>
+                        <p>Selecciona tu tipo de vehículo y los servicios que te interesan para armar tu paquete personalizado.</p>
+                    </div>
+
+                    <form id="calcForm" class="calc-form" onsubmit="event.preventDefault();">
+                        <div class="calc-group">
+                            <label class="calc-label">1. Selecciona el Tipo de Vehículo:</label>
+                            <div class="vehicle-options">
+                                <label class="vehicle-card active">
+                                    <input type="radio" name="vehicleType" value="Auto Chico / Sedan" checked>
+                                    <i class="fa-solid fa-car-side"></i>
+                                    <span>Hatchback / Sedan</span>
+                                </label>
+                                <label class="vehicle-card">
+                                    <input type="radio" name="vehicleType" value="SUV / Pick-Up">
+                                    <i class="fa-solid fa-truck-pickup"></i>
+                                    <span>SUV / Pick-Up / 4x4</span>
+                                </label>
+                                <label class="vehicle-card">
+                                    <input type="radio" name="vehicleType" value="Moto / Utilitario">
+                                    <i class="fa-solid fa-motorcycle"></i>
+                                    <span>Moto / Grande</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="calc-group">
+                            <label class="calc-label">2. Selecciona los Servicios Deseados:</label>
+                            <div class="services-checkbox-grid">
+                                <label class="calc-checkbox-item">
+                                    <input type="checkbox" class="service-calc-check" value="Lavados Premium a Domicilio" data-price="12000">
+                                    <span class="custom-check"></span>
+                                    <span>Lavados Premium a Domicilio</span>
+                                </label>
+                                <label class="calc-checkbox-item">
+                                    <input type="checkbox" class="service-calc-check" value="Detailing Interior y Exterior" data-price="35000">
+                                    <span class="custom-check"></span>
+                                    <span>Detailing Interior y Exterior</span>
+                                </label>
+                                <label class="calc-checkbox-item">
+                                    <input type="checkbox" class="service-calc-check" value="Pulido Completo y Abrillantado" data-price="45000">
+                                    <span class="custom-check"></span>
+                                    <span>Pulidos Completos y Abrillantado</span>
+                                </label>
+                                <label class="calc-checkbox-item">
+                                    <input type="checkbox" class="service-calc-check" value="Tratamiento Cerámico SiO2" data-price="75000">
+                                    <span class="custom-check"></span>
+                                    <span>Tratamientos de Cerámico / Acrílico</span>
+                                </label>
+                                <label class="calc-checkbox-item">
+                                    <input type="checkbox" class="service-calc-check" value="Restauración de Plásticos" data-price="15000">
+                                    <span class="custom-check"></span>
+                                    <span>Restauración de Plásticos</span>
+                                </label>
+                                <label class="calc-checkbox-item">
+                                    <input type="checkbox" class="service-calc-check" value="Limpieza de Motor" data-price="18000">
+                                    <span class="custom-check"></span>
+                                    <span>Limpieza de Motor</span>
+                                </label>
+                                <label class="calc-checkbox-item">
+                                    <input type="checkbox" class="service-calc-check" value="Pintado de Llantas" data-price="40000">
+                                    <span class="custom-check"></span>
+                                    <span>Pintado de Llantas</span>
+                                </label>
+                                <label class="calc-checkbox-item">
+                                    <input type="checkbox" class="service-calc-check" value="Despegue de Calcomanías/Polarizado" data-price="15000">
+                                    <span class="custom-check"></span>
+                                    <span>Despegue de Calcomanías y Polarizados</span>
+                                </label>
+                                <label class="calc-checkbox-item">
+                                    <input type="checkbox" class="service-calc-check" value="Limpieza Profunda de Tapizados" data-price="30000">
+                                    <span class="custom-check"></span>
+                                    <span>Limpieza Profunda de Tapizados</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="calc-summary-box">
+                            <div class="calc-total">
+                                <span>Estimado Total:</span>
+                                <strong id="calcTotalAmount">$0 ARS</strong>
+                            </div>
+                            <button type="button" class="btn btn-whatsapp btn-lg" id="sendCalcWa">
+                                <i class="fa-brands fa-whatsapp"></i> Enviar Consulta de Cotización al 3417489454
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN TIENDA DE PRODUCTOS AUTO-CARE -->
+        <section class="shop-section" id="tienda">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle"><i class="fa-solid fa-basket-shopping"></i> TIENDA AUTO-CARE</span>
+                    <h2 class="section-title">Productos para el Cuidado Personal de Tu Auto</h2>
+                    <p class="section-desc">Mantén tu vehículo como nuevo entre lavados con nuestros productos profesionales de primera calidad.</p>
+                </div>
+
+                <!-- FILTROS DE TIENDA -->
+                <div class="shop-controls">
+                    <div class="category-pills">
+                        <button class="pill-btn active" data-filter="all">Todos</button>
+                        <button class="pill-btn" data-filter="microfibra">Microfibras</button>
+                        <button class="pill-btn" data-filter="perfumes">Perfumes</button>
+                        <button class="pill-btn" data-filter="renovadores">Renovadores</button>
+                        <button class="pill-btn" data-filter="pinceles">Pinceles y Accesorios</button>
+                    </div>
+
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="shopSearch" placeholder="Buscar producto (ej: microfibra, perfume...)" aria-label="Buscar producto">
+                    </div>
+                </div>
+
+                <!-- GRID DE PRODUCTOS -->
+                <div class="products-grid" id="productsGrid">
+                    <!-- Los productos se cargarán dinámicamente con JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN ANTES Y DESPUÉS (SLIDER DE RESULTADOS) -->
+        <section class="before-after-section" id="antes-despues">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle"><i class="fa-solid fa-wand-magic-sparkles"></i> RESULTADOS REALES</span>
+                    <h2 class="section-title">Transformaciones Antes vs Después</h2>
+                    <p class="section-desc">Desliza la barra central para comprobar el nivel de detalle y brillo alcanzado en nuestras restauraciones a domicilio.</p>
+                </div>
+
+                <div class="comparison-slider-container">
+                    <div class="comparison-slider" id="comparisonSlider">
+                        <div class="img-before">
+                            <img src="images/hero.png" alt="Antes de la restauración" style="filter: contrast(0.8) brightness(0.6) sepia(0.3);">
+                            <span class="slider-badge badge-before">ANTES (Opaco / Con Rayas)</span>
+                        </div>
+                        <div class="img-after">
+                            <img src="images/hero.png" alt="Después del tratamiento cerámico">
+                            <span class="slider-badge badge-after">DESPUÉS (Brillo Espejo & Cerámico)</span>
+                        </div>
+                        <div class="slider-handle" id="sliderHandle">
+                            <div class="handle-line"></div>
+                            <div class="handle-button">
+                                <i class="fa-solid fa-arrows-left-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PREGUNTAS FRECUENTES -->
+        <section class="faq-section" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">DUDAS COMUNES</span>
+                    <h2 class="section-title">Preguntas Frecuentes</h2>
+                </div>
+
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>¿Necesito proveer agua o luz para el servicio a domicilio?</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Contamos con máquinas profesionales de alta eficiencia. Solo necesitamos una toma de corriente standard y un canilla o fuente de agua cercana en la cochera o domicilio.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>¿Cuánto tiempo demora un Tratamiento Cerámico o Pulido?</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Dependiendo del estado del vehículo, un lavado premium o limpieza de tapizados toma de 2 a 3 horas. Un pulido completo o tratamiento cerámico requiere entre 4 y 7 horas de trabajo minucioso.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>¿Cómo realizo la compra de productos en la tienda online?</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Puedes agregar los productos que desees al carrito y hacer clic en "Finalizar Pedido por WhatsApp". Te redireccionará directamente a nuestro WhatsApp (3417489454) con tu pedido listo para coordinar la entrega o envío.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>¿Cuáles son los medios de pago aceptados?</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Aceptamos Mercado Pago, transferencias bancarias, tarjetas de débito/crédito y efectivo al momento de finalizar el trabajo o la entrega del producto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BANNER FINAL LLAMADO A LA ACCIÓN -->
+        <section class="final-cta-section">
+            <div class="container">
+                <div class="cta-card">
+                    <div class="cta-content">
+                        <h2>¿Listo para devolverle el brillo de fábrica a tu auto?</h2>
+                        <p>Escríbenos directamente a WhatsApp y te asesoramos al instante sin ningún compromiso.</p>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="https://wa.me/5493417489454?text=Hola%20tuauto.tubrillo!%20Quiero%20hacer%20una%20consulta%20directa" target="_blank" class="btn btn-whatsapp btn-xl">
+                            <i class="fa-brands fa-whatsapp"></i> Hablar al 3417489454
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <a href="#" class="logo">
+                    <span class="logo-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                    <span class="logo-text">tuauto.<span class="highlight">tubrillo</span></span>
+                </a>
+                <p>Especialistas en Estética Vehicular a Domicilio y Venta de Productos Auto-Care de Alta Gama.</p>
+                <div class="social-links">
+                    <a href="https://wa.me/5493417489454" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Servicios</h4>
+                <ul>
+                    <li><a href="#servicios">Lavados Premium</a></li>
+                    <li><a href="#servicios">Detailing Interior/Exterior</a></li>
+                    <li><a href="#servicios">Tratamientos Cerámicos</a></li>
+                    <li><a href="#servicios">Pulidos y Abrillantados</a></li>
+                    <li><a href="#servicios">Limpieza de Tapizados</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Tienda</h4>
+                <ul>
+                    <li><a href="#tienda">Microfibras Premium</a></li>
+                    <li><a href="#tienda">Perfumes de Auto</a></li>
+                    <li><a href="#tienda">Renovadores de Plásticos</a></li>
+                    <li><a href="#tienda">Pinceles Detailing</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact-col">
+                <h4>Contacto Directo</h4>
+                <p><i class="fa-solid fa-phone"></i> WhatsApp: <strong>3417489454</strong></p>
+                <p><i class="fa-solid fa-truck"></i> Servicio a Domicilio disponible</p>
+                <p><i class="fa-solid fa-clock"></i> Lunes a Sábados: 08:00 - 20:00 hs</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p>&copy; 2026 <strong>tuauto.tubrillo</strong>. Todos los derechos reservados. Estética Vehicular Profesional.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WIDGET FLOTANTE DE WHATSAPP -->
+    <div class="floating-wa-container">
+        <a href="https://wa.me/5493417489454?text=Hola%20tuauto.tubrillo!%20Quiero%20realizar%20una%20consulta" target="_blank" class="floating-wa-btn" aria-label="Contactar por WhatsApp al 3417489454">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span class="wa-tooltip">¡Escríbenos al 3417489454!</span>
+        </a>
+    </div>
+
+    <!-- DRAWER CARRITO DE COMPRAS -->
+    <div class="cart-drawer-overlay" id="cartOverlay"></div>
+    <aside class="cart-drawer" id="cartDrawer">
+        <div class="cart-header">
+            <h3><i class="fa-solid fa-cart-shopping"></i> Tu Carrito de Compras</h3>
+            <button class="cart-close-btn" id="cartCloseBtn" aria-label="Cerrar carrito">&times;</button>
+        </div>
+
+        <div class="cart-body" id="cartItemsContainer">
+            <!-- Items agregados se listarán aquí -->
+        </div>
+
+        <div class="cart-footer">
+            <div class="cart-total-row">
+                <span>Total Estimado:</span>
+                <strong id="cartTotal">$0 ARS</strong>
+            </div>
+            <button class="btn btn-whatsapp btn-block" id="checkoutWaBtn">
+                <i class="fa-brands fa-whatsapp"></i> Enviar Pedido por WhatsApp (3417489454)
+            </button>
+        </div>
+    </aside>
+
+    <!-- MODAL VISTA DETALLADA DE PRODUCTO -->
+    <div class="modal-overlay" id="productModalOverlay">
+        <div class="modal-card">
+            <button class="modal-close" id="modalCloseBtn">&times;</button>
+            <div class="modal-grid">
+                <div class="modal-img-wrapper">
+                    <img id="modalImg" src="" alt="Producto">
+                </div>
+                <div class="modal-info">
+                    <span class="modal-category" id="modalCategory">CATEGORÍA</span>
+                    <h3 id="modalTitle">Nombre del Producto</h3>
+                    <div class="modal-price" id="modalPrice">$0</div>
+                    <p id="modalDescription">Descripción detallada del producto.</p>
+                    <div class="modal-actions">
+                        <button class="btn btn-primary" id="modalAddToCartBtn">
+                            <i class="fa-solid fa-cart-plus"></i> Agregar al Carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
